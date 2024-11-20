@@ -1,4 +1,3 @@
-import React from 'react';
 import './PostInfo.scss';
 import { UserInfo } from '../UserInfo';
 import { CommentList } from '../CommentList';

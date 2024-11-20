@@ -1,8 +1,9 @@
+import React from 'react';
 import './UserInfo.scss';
 
 export const UserInfo = ({ user }) => {
   if (!user) {
-    return <div className="UserInfo">User information is not available</div>;
+    return null;
   }
 
   const { name, email } = user;
